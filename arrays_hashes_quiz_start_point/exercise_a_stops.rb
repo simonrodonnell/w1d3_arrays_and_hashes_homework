@@ -3,6 +3,7 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # 1. Add `"Edinburgh Waverley"` to the end of the array
 stops.push("Edinburgh Waverley")
 p stops
+
 # 2. Add `"Glasgow Queen St"` to the start of the array
 stops.unshift("Glasgow Queen St")
 p stops
@@ -31,7 +32,6 @@ p stops[-5]
 
 # 9. Reverse the positions of the stops in the array
 p stops.reverse()
-#p stops_reverse
 
 # 10. Print out all the stops using a for loop
 for stop in stops
